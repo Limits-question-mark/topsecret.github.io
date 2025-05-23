@@ -9,11 +9,13 @@
 <body>
     <div class="main-container">
         <div class="circle-frame">
-            <img src="ChatGPT Image May 22, 2025, 11_17_04 AM.png" alt="hello">
-        </div><br>
+            <img src="ChatGPT Image May 23, 2025, 04_08_15 PM.png" alt="hello">
+        </div>
+        <h3>Wrong credentials !!!</h3>
+        <br>
         <form id="formid">
             <div class="info">
-                <input type="text" placeholder="Enter your name : ex: Jnyan" name="name">
+                <input type="text" placeholder="Enter your name : ex: nyan" name="name">
                 <input type="password" placeholder="Password" name="password">
                 <button class="button">
                     submit
@@ -21,24 +23,5 @@
             </div>
         </form>
     </div>
-    <script>
-        document.getElementById("formid").addEventListener("submit", function(e){
-            e.preventDefault();
-
-            const name = document.getElementsByName("name")[0].value;
-            const pass = document.getElementsByName("password")[0].value;
-
-            const correctname = "Jnyan" ; 
-            const correctpass = "1234" ;
-
-            if (name === correctname && pass === correctpass){
-                window.location.href = "page2.html";
-            }
-
-            else{
-                window.location.href = "error.html";
-            }
-        });
-    </script>
 </body>
 </html>
